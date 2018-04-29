@@ -1,0 +1,157 @@
+/*@media screen and (min-width: 480px) {
+    .navbar {
+    width: 250px;
+}
+}*/
+
+#title {
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    padding-top: 18%;
+}
+
+#color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f7464a;
+    opacity: 0.8;
+    z-index: -2;
+}
+
+body {
+    background-image: url("https://s3.amazonaws.com/ooomf-com-files/8H0UdTsvRFqe03hZkNJr_New%20York%20-%20On%20the%20rock%20-%20Empire%20State%20Building.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#searchBar {
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    /* will need to change this for buttons to show */
+    margin: 15% 0 2% 32%; 
+    padding-right: 26%;
+}
+.navbar form input {
+    margin: 0 -45px 1px 0px;
+}
+
+input {
+    letter-spacing: 1.2px;
+}
+
+.btn-outline-success {
+    border: 1px solid #ffffff;
+    color: white;
+}
+
+#searchBtn {
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #ffffff;
+    color: black !important;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 25px 10px 25px;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+input::-webkit-input-placeholder {
+    color: white !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input:-moz-placeholder {
+    /* Firefox 18- */
+    color: white !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input:-ms-input-placeholder {
+    color: white !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#most-searched{
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: center;
+}
+
+.city-btn{
+    background-color: #2EC4B6;
+    color: white;
+    border-color: #2EC4B6;
+    margin: .5em 1em;
+    padding: .25em 1em;
+    border-radius: 1em;
+    transition: all .5s;
+}
+
+.city-btn:hover{
+    transition: all .5s;
+    background-color: rgb(42, 155, 144);
+    cursor: pointer;
+}
+
+#currentLoc-btn{
+    background-color: #FFD23F;
+    color: white;
+    border-color: #FFD23F;
+    margin: .5em 1em;
+    padding: .25em 1em;
+    border-radius: 1em;
+    transition: all .5s;
+}
+
+#currentLoc-btn:hover{
+    background-color: rgb(204, 165, 36);
+    transition: all .5s;
+}
+
+@media screen and (max-width: 575px) {
+    #title {
+        font-family: 'Fredoka One', cursive;
+        color: white;
+        font-size: 55px;
+        text-align: center;
+        padding-top: 18%;
+    }
+    
+    /* .navbar  {
+               width:280px;
+               margin-left:5px;
+       } */
+    #searchBar {
+       font-family: 'Fredoka One', sans-serif;
+       font-size: 30px;
+       color: #ffffff;
+       /* will need to change this for buttons to show */
+       margin: 15% 15% 2% 15%;
+       padding-right: 0;
+       
+    }
+
+    .city-btn{
+        margin: .25em .5em;
+    }
+
+    #currentLoc-btn{
+        margin: .25em .5em;
+    }
+    }
+    
